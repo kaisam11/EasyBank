@@ -10,7 +10,7 @@
 
     &__image {
         position: relative;
-        background-image: url('/images/bg-intro-mobile.svg');
+        background-image: url('../images/bg-intro-mobile.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -25,8 +25,6 @@
             order: 2;
             min-height: 41rem;
             background-image: none;
-            // background-image: url('/images/bg-intro-desktop.svg');
-            // background-position: left center;
         }
 
 
@@ -37,7 +35,7 @@
                 position: absolute;
                 height: 100%;
                 width: 100%;
-                background-image: url('/images/bg-intro-desktop.svg');
+                background-image: url('../images/bg-intro-desktop.svg');
                 background-size: 93%;
                 background-repeat: no-repeat;
                 background-position: center bottom;
@@ -55,7 +53,7 @@
             position: absolute;
             height: 100%;
             width: 100%;
-            background-image: url('/images/image-mockups.png');
+            background-image: url('../images/image-mockups.png');
             background-size: 93%;
             background-repeat: no-repeat;
             background-position: center bottom;
@@ -67,7 +65,7 @@
             @include bp-up(large) {
                 height: 122%;
                 width: 120%;
-                background-image: url('/images/image-mockups.png');
+                background-image: url('../images/image-mockups.png');
                 background-size: 94%;
                 background-position: center 150%;
                 left: 22%;
